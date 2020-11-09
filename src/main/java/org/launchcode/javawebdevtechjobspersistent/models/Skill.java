@@ -9,6 +9,8 @@ public class Skill extends AbstractEntity {
 
     public Skill() {}
 
+    //Getters and setters
+
     public String getDescription() {
         return description;
     }

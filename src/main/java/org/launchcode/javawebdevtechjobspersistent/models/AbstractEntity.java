@@ -19,6 +19,8 @@ public abstract class AbstractEntity {
     @Size(max = 150)
     private String name;
 
+    //Getters and setters
+
     public int getId() {
         return id;
     }
@@ -30,6 +32,8 @@ public abstract class AbstractEntity {
     public void setName(String name) {
         this.name = name;
     }
+
+    //toString/equals/hash
 
     @Override
     public String toString() {

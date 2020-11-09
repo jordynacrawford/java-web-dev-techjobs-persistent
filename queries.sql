@@ -11,5 +11,7 @@ SELECT * from employer
 WHERE location = "St. Louis, MO"
 
 ## Part 3: Test it with SQL
+--remove the job table
+DROP TABLE job
 
 ## Part 4: Test it with SQL
